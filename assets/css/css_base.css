@@ -1,0 +1,81 @@
+* { 
+    font-size: 16px;
+}
+
+body{
+    background-color:white;
+}
+
+/*======================*/
+.style_seccion_header{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.style_seccion_header .titulo{
+    /*border: 3px solid green;*/
+    font-size: 4rem;
+}
+
+
+/*======================*/
+.style_seccion_contenido{
+    width: 100%;
+    padding: 50px;
+    
+}
+
+.center_col{
+    justify-content: center;
+    align-items: center;
+}
+
+.card_color{
+    background-color: green;
+}
+
+
+/*======================*/
+.style_seccion_footer{
+    background-color: green;
+    padding: 20px;
+    padding: 20px;
+    color: white;
+}
+.style_seccion_footer .titulo{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.div_img_card{
+    height:180px;
+    width: 100%; 
+    background-size: cover; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.div_hr_card{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%; 
+}
+
+.div_span_card{
+    margin-right: 5px;
+    float: right;
+}
+
+.div_span_card_green{
+    color: green;
+    font-weight: bold;
+}
